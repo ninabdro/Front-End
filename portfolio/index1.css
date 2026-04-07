@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500&display=swap');
+
+body {
+    margin: 0;
+    background: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.topo {
+    background: #ed5478;
+    color: rgb(243, 141, 141);
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+}
+
+.topo-direita {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.topo img {
+    width: 60px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-weight: 400;
+}
+
+
+.conteudo {
+    padding: 60px;
+}
+
+.bloco {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.bloco img, video {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.texto {
+    max-width: 500px;
+}
